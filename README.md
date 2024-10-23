@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lin
+If you are developing a production application, we recommend updating the configuration to enable type aware li
 
 - Configure the top-level `parserOptions` property like th
 
