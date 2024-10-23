@@ -1,5 +1,5 @@
-import { motion, useAnimate, usePresence } from "framer-motion";
-import { useEffect} from "react";
+import { motion,} from "framer-motion";
+
 
 
 interface AnimatedPageProps {
