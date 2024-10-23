@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router"
-import AnimatePage from "./AnimatePage"
+import { motion } from "framer-motion"
 
 
 
@@ -8,7 +8,12 @@ const Home = () => {
     
   return (
     <div>
-        <AnimatePage> 
+        <motion.div
+            initial={{x: '-100%', opacity: 0}}
+            animate={{x: 0, opacity: 1}}
+            exit={{x: '100%', opacity: 0}}
+            transition={{duration: 1, ease: 'easeInOut'}}
+        > 
             <div>
                 <div>
                     <h2>Build minimally</h2>
@@ -20,7 +25,7 @@ const Home = () => {
                     onClick={() => navigate('/contact') }
                 >Start</button>
             </div>     
-        </AnimatePage>
+        </motion.div>
     </div>
   )
 }
