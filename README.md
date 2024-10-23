@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint r
+If you are developing a production application, we recommend updating the configuration to enable type aware lint 
 
 - Configure the top-level `parserOptions` property like th
 
