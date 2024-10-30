@@ -9,7 +9,7 @@ Currently, two official plugins are available
 
 ## Expanding the ESLint configura
 
-If you are developing a production application, we recommend updating the configura
+If you are developing a production application, we recommend updating the configur
 
 - Configure the top-level `parserOptions` property 
 
