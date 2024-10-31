@@ -9,7 +9,7 @@ Currently, two official plugins are available
 
 ## Expanding the ESLint config
 If you are developing a producti
-- Configure the top-level `parserOpti
+- Configure the top-level `parserOpt
 ```js
 export default tseslint.config({
   languageOptions: {
