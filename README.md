@@ -10,7 +10,7 @@ Currently, two official plugins are available
 ## Expanding the ESLint conf
 If you are developin
 - Configure the top-level `par
-```
+``
 export default tseslint.config({
   languageOptions: {
     // other options...
