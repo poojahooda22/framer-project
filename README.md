@@ -11,7 +11,7 @@ Currently, two official plugins are available
 If you are developin
 - Configure the top-level 
 export default tseslint.config
-  languageOptions: {
+  languageOptions: 
     // other options..
     parserOptions: {
       project: ['./tsconfig.node.json', './tsconfig.app.json'],
