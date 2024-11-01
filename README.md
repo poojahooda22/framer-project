@@ -11,7 +11,7 @@ Currently, two official plugins are available
 If you are developin
 - Configure the top-level 
 
-export default tseslint.config({
+export default tseslint.config(
   languageOptions: {
     // other options...
     parserOptions: {
