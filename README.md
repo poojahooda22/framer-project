@@ -9,7 +9,7 @@ Currently, two official plugins are available
 
 ## Expanding the ESLint con
 If you are developin
-- Configure the top-level `pa
+- Configure the top-level `p
 ``
 export default tseslint.config({
   languageOptions: {
