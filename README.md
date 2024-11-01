@@ -12,7 +12,7 @@ If you are developin
 - Configure the top-level 
 export default tseslint.con
   languageOptions: 
-    // other options
+    // other option
     parserOptions: {
       project: ['./tsconfig.node.json', './tsconfig.app
       tsconfigRootDir: import.meta.dirname
