@@ -10,7 +10,6 @@ Currently, two official plugins are available
 ## Expanding the ESLint con
 If you are developin
 - Configure the top-level 
-
 export default tseslint.config(
   languageOptions: {
     // other options...
