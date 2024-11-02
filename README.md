@@ -15,7 +15,7 @@ export default tseslint.con
     // other optio
     parserOptions: 
       project: ['./tsconfig.node.json', '
-      tsconfigRootDir: import.meta.dir
+      tsconfigRootDir: import.meta.di
   }
 })
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChec
