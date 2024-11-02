@@ -16,7 +16,7 @@ export default tseslint.con
     parserOptions: {
       project: ['./tsconfig.node.json', './ts
       tsconfigRootDir: import.meta.dirnam
-    }
+    
   },
 })
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked`
