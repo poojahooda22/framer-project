@@ -18,7 +18,7 @@ export default tseslint.con
       tsconfigRootDir: import.meta.di
   }
 })
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChec
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChe
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) a
 
