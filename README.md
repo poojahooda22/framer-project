@@ -14,7 +14,7 @@ export default tseslint.con
   languageOptions: 
     // other option
     parserOptions: {
-      project: ['./tsconfig.node.json', './tsco
+      project: ['./tsconfig.node.json', './tsc
       tsconfigRootDir: import.meta.dirnam
     }
   },
