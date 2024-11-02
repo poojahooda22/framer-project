@@ -21,7 +21,7 @@ export default tseslint.con
 })
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` o
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and upd
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and up
 
 ```js
 // eslint.config.js
