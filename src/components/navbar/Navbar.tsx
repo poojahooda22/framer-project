@@ -1,4 +1,5 @@
 import { RxHamburgerMenu } from "react-icons/rx";
+import logo from '../../assets/logo.png'
 
 const data ={
     links: [
@@ -29,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="container mx-auto py-2 flex items-center justify-between">
         <div className="w-[4vw]">
-            <img src="/src/assets/logo.png" />
+            <img src={logo} />
         </div>
         <div className=" space-x-[3.5vw] text-[1vw] font-medium text-gray-700 uppercase">
             {data.links.map((link,index) => {
