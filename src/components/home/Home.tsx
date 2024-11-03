@@ -157,7 +157,7 @@ const Home: React.FC = () => {
                         transition={{duration: 0.5, ease: 'easeOut', delay:0}}
                         className="w-[12vw] img-shadow"
                     >
-                        <img src={activeData.url} />
+                        <img src={activeData.image} />
                     </motion.div>
                     </AnimatePresence>
                     <motion.div
@@ -173,7 +173,7 @@ const Home: React.FC = () => {
                                     className="cursor-pointer space-y-3 hover:scale-105
                                     transition-all duration-200"
                                 >
-                                    <img src={data.url} 
+                                    <img src={data.image} 
                                         alt=""
                                         className={`w-[80px] img-shadow ${activeData.image === data.image ? 'opacity-100 scale-110' : 'opacity-50'}`}
                                     />
