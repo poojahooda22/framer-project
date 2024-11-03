@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         <UpdateFollower
             className="sample"
             mouseOptions={{
-                backgroundColor: 'black',
+                backgroundColor: 'white',
                 zIndex: 9,
                 followSpeed: 0.2,
                 scale: 1.1,
@@ -168,6 +168,17 @@ const Home: React.FC = () => {
                     >
                         {heroData.map((data, index) => {
                             return (
+                                <UpdateFollower
+                                    className="sample"
+                                    mouseOptions={{
+                                        backgroundColor: data.textColor,
+                                        followSpeed: 0.2,
+                                        scale: 6,
+                                        text: 'View details',
+                                        textFontSize: '2px',
+
+                                    }}
+                                >
                                 <div key={index} 
                                     onClick={() => handleActiveData(data)}
                                     className="cursor-pointer space-y-3 hover:scale-105
@@ -175,9 +186,10 @@ const Home: React.FC = () => {
                                 >
                                     <img src={data.image} 
                                         alt=""
-                                        className={`w-[80px] img-shadow ${activeData.image === data.image ? 'opacity-100 scale-110' : 'opacity-50'}`}
+                                        className={`w-[100px] img-shadow ${activeData.image === data.image ? 'opacity-100 scale-110' : 'opacity-50'}`}
                                     />
                                 </div>
+                                </UpdateFollower>
                             )
                         })}
                     </motion.div>
