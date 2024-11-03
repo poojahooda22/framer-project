@@ -29,7 +29,7 @@ const heroData = [
         price: "$140",
         modal: 'Zero',
         color: '#B7B7B7',
-        textColor: '#727272'
+        textColor: '#2f3a78'
     },
     {
         title: 'Cola Cola',
