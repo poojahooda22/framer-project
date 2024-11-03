@@ -3,13 +3,16 @@ import Navbar from "../navbar/Navbar"
 import { UpdateFollower } from "react-mouse-follower"
 import { AnimatePresence, easeOut, motion } from "framer-motion"
 import styles from './Home.module.css'
+import fanta1 from '../../assets/fanta1.png'
+import fanta2 from '../../assets/fanta2.png'
+import fanta3 from '../../assets/fanta3.png'
 
 
 const heroData = [
     { 
         title: 'Orange Fanta',
         id: 1,
-        image: 'Fanta1',
+        image: fanta1,
         description: 'Fanta is a brand of fruit-flavored carbonated soft drinks created by Coca-Cola Deutschland under the leadership of German businessman',
         url: '/src/assets/fanta1.png',
         price: "$40",
@@ -20,7 +23,7 @@ const heroData = [
     {
         title: 'Cola Zero',
         id: 2,
-        image: 'Fanta2',
+        image: fanta2,
         description: 'Fanta is a brand of fruit-flavored carbonated soft drinks created by Coca-Cola Deutschland under the leadership of German businessman',
         url: '/src/assets/fanta2.png',
         price: "$140",
@@ -31,7 +34,7 @@ const heroData = [
     {
         title: 'Cola Cola',
         id: 3,
-        image: 'Fanta3',
+        image: fanta3,
         description: 'Fanta is a brand of fruit-flavored carbonated soft drinks created by Coca-Cola Deutschland under the leadership of German businessman',
         url: '/src/assets/fanta3.png',
         price: "$100",
