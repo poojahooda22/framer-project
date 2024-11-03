@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import Navbar from "../navbar/Navbar"
 import { UpdateFollower } from "react-mouse-follower"
 import { AnimatePresence, easeOut, motion } from "framer-motion"
-import styles from './home.module.css'
+import styles from './Home.module.css'
 
 
 const heroData = [
