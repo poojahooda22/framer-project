@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router";
-import Home from './Home'
+import Home from './components/home/Home'
 import Contact from './Contact'
 import { AnimatePresence } from "framer-motion";
 

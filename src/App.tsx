@@ -5,7 +5,7 @@ import AnimatedRoute from './AnimatedRoute'
 function App() {
   
   return (
-    <div>
+    <div className='w-[100vw] h-[100vh]'>
       <Router>
         <AnimatedRoute />
       </Router>
