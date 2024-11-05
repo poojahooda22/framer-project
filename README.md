@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite
+This template provides a minimal setup to get React working in Vit
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) 
